@@ -1,32 +1,3 @@
-# conditionals
-age = 22
-if age > 56:
-  print("Eligable")
-elif age >= 22:
-  print("Waiting")
-else: 
-  print("Out")
-
-# ternary conditionals
-age = 20
-status = 'adult' if age>18 else 'Minor' # must put this in a single line
-
-# | Operator | Meaning                      |
-# | -------- | ---------------------------- |
-# | `and`    | True if both are true        |
-# | `or`     | True if at least one is true |
-# | `not`    | Reverses boolean             |
-
-# | Operator | Meaning          | Example |
-# | -------- | ---------------- | ------- |
-# | `>`      | Greater than     | x > 5   |
-# | `<`      | Less than        | x < 10  |
-# | `>=`     | Greater or equal | x >= 18 |
-# | `<=`     | Less or equal    | x <= 20 |
-# | `==`     | Equal            | x == 5  |
-# | `!=`     | Not equal        | x != 10 |
-
-
 # For Loop
 for i in range(5): # range(0, 5, 1)
   print(i)
@@ -64,3 +35,5 @@ for i in range(10):
 # | break     | stop loop                    |
 # | continue  | skip next                    |
 # | else      | executes if loop exits clean |
+
+# -----Advance Looping -----
